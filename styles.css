@@ -1,13 +1,61 @@
 html {
     box-sizing: border-box;
+    
+}
+*, *::before, *::after {
+    box-sizing: inherit;
 }
 
 body {
      background: #a58686;
+     margin-top: 0;
+     
 }
 
 header {
     width: 1140px;
+    height:225px;
     background: #e9e9e9;
     text-align: center;
+    padding-top:15px;
+    padding-bottom:0px;
+    
+    
+}
+h1{
+    font-size: 60px;
+}
+h2{
+    font-size:35px;
+}
+
+div{
+    width:325px;
+    margin:0px;
+    background-color:#64b0a7;
+    display: inline-block;
+    height:
+    
+}
+
+main{
+    width: 1140px;
+    margin-left: auto;
+    margin-right:auto;
+}
+    
+.white{
+    
+    color: white;
+}
+
+
+article{
+    display: inline-block;
+    background:white;
+    width:810px;
+    padding:50px;
+    margin:0px;
+    
+    
 }
