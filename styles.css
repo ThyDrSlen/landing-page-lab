@@ -10,7 +10,7 @@ body {
      background: #a58686;
      margin-top: 0;
      font-family: Helvetica Neue,Helvetica,Arial,sans-serif; 
-     
+
 }
 
 header {
@@ -20,8 +20,6 @@ header {
     text-align: center;
     padding-top:15px;
     padding-bottom:0px;
-    
-    
 }
 li{
     font-size: 30px;
@@ -53,8 +51,6 @@ div{
     background-color:#64b0a7;
     display: inline-block;
     float:left;
-    
-    
 }
 
 main{
@@ -73,16 +69,12 @@ main{
 
 
 
-
-
-
 article{
     display: inline-block;
     background:white;
     width:814px;
     padding:50px;
     margin:0px;
-    
     
 }
 
