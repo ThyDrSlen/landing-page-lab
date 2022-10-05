@@ -9,6 +9,7 @@ html {
 body {
      background: #a58686;
      margin-top: 0;
+     font-family: Helvetica Neue,Helvetica,Arial,sans-serif; 
      
 }
 
@@ -22,19 +23,37 @@ header {
     
     
 }
+li{
+    font-size: 30px;
+    padding-left:8px;
+    /*padding-top:10px;*/
+    /*padding-bottom:10px;*/
+}
+ul{
+    list-style: disc;
+}
 h1{
-    font-size: 60px;
+    font-size: 75px;
+    margin:0px;
+    
 }
 h2{
-    font-size:35px;
+    font-size:40px;
 }
-
+.tdl{
+    padding-left:10px;
+    margin-left:0px;
+    font-size:45px;
+    padding-top:10px;
+}
 div{
-    width:325px;
+    width:326px;
+    height:747px;
     margin:0px;
     background-color:#64b0a7;
     display: inline-block;
-    height:
+    float:left;
+    
     
 }
 
@@ -45,17 +64,28 @@ main{
 }
     
 .white{
-    
+    list-style-type: disc ;
     color: white;
 }
+::marker{
+    color:black;
+}
+
+
+
+
 
 
 article{
     display: inline-block;
     background:white;
-    width:810px;
+    width:814px;
     padding:50px;
     margin:0px;
     
     
+}
+
+p{
+    font-size: 22px;
 }
